@@ -1,0 +1,27 @@
+/* 로그인 페이지와 유사한 스타일 적용 */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 100px;
+}
+
+input {
+  width: 300px;
+  height: 45px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.signup-btn {
+  width: 320px;
+  height: 50px;
+  background-color: #007bff; /* 기존 로그인 버튼과 동일한 파란색 */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

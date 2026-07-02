@@ -1,0 +1,42 @@
+/* src/pages/AnalysisSummaryPage.css */
+
+.summary-container {
+    width: 1440px; height: 1024px; position: relative; background: white; overflow: hidden;
+}
+
+/* 상단 지표 섹션 */
+.indicators-wrapper {
+    position: absolute; left: 98px; top: 186px; display: flex; gap: 45px;
+}
+
+.indicator-card {
+    width: 260px; height: 190px; background: #F1F4F9;
+    border-radius: 40px; border: 1px #E2E8F0 solid;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    box-sizing: border-box;
+}
+
+.indicator-title {
+    color: #22D3EE; font-size: 24px; font-family: 'Inter'; font-weight: 600;
+}
+
+/* 하단 결과 섹션 */
+.result-box {
+    width: 1176px; height: 519px; left: 98px; top: 417px; position: absolute;
+    background: #F1F4F9; border-radius: 50px; border: 1px #E2E8F0 solid;
+}
+
+.result-title {
+    left: 45px; top: 35px; position: absolute; color: black;
+    font-size: 32px; font-family: 'Anonymous Pro'; font-weight: 700;
+}
+
+.back-link {
+    right: 45px; top: 35px; position: absolute; color: #64748B;
+    font-size: 18px; font-weight: 600; cursor: pointer;
+}
+
+.section-label {
+    left: 569px; position: absolute; color: #22D3EE;
+    font-size: 27px; font-family: 'Inter'; font-weight: 600; margin-bottom: 15px;
+}

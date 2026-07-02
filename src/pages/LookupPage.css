@@ -1,0 +1,56 @@
+/* LookupPage.css */
+.lookup-container {
+  width: 1440px; 
+  height: 1024px; 
+  position: relative; 
+  background: white; 
+  overflow: hidden;
+}
+
+.search-input {
+  width: 1054px; 
+  height: 77px; 
+  left: 207px; 
+  top: 417px; 
+  position: absolute; 
+  background: rgba(217, 217, 217, 0.50); 
+  border-radius: 40px;
+  border: none;
+  padding: 0 30px;
+  font-size: 24px;
+}
+
+.search-btn {
+  width: 1054.75px; 
+  height: 77.48px; 
+  left: 206.65px; 
+  top: 535.85px; 
+  position: absolute; 
+  background: #73ECFC; 
+  border-radius: 40px; 
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  font-family: 'Inter';
+}
+
+.title-text {
+  width: 503px; 
+  left: 540px; 
+  top: 177px; 
+  position: absolute; 
+  font-size: 32px; 
+  font-family: 'Anonymous Pro';
+}
+
+.result-item {
+  width: 1267px; 
+  height: 80px; 
+  background: rgba(218.36, 235.59, 254.02, 0.80); 
+  border-radius: 40px;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  position: relative;
+}

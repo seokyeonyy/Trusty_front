@@ -10,6 +10,8 @@ import ReportMainPage from './pages/ReportMainPage'
 import ReportPage from './pages/ReportPage'
 import CommunityPage from './pages/CommunityPage'
 import LoginPage from './pages/LoginPage'
+import SignupPage from './pages/SignupPage';
+
 
 // 공통 전역 스타일 혹은 기존 App.css가 필요하다면 유지 (스타일 깨짐 방지)
 import './App.css'
@@ -28,12 +30,13 @@ function App() {
         
         {/* 3. 피싱 이력 조회 및 제보창 매핑 */}
         <Route path="/lookup" element={<LookupPage />} />
-        <Route path="/report" element={<ReportMainPage />} />
-        <Route path="/report/detail" element={<ReportPage />} />
+        <Route path="/report" element={<ReportPage />} />       {/* 선택 페이지로 이동 */}
+        <Route path="/report/main" element={<ReportMainPage />} /> {/* 상세 입력 페이지로 이동 */}
         
-        {/* 4. 커뮤니티 및 로그인 */}
+        {/* 4. 커뮤니티/로그인/회원가입 */}
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
       </Routes>
     </Router>
   )

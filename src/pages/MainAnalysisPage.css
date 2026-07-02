@@ -1,0 +1,30 @@
+.main-container {
+  width: 1440px; height: 1024px; position: relative; background: white; overflow: hidden;
+}
+
+.content-box {
+  width: 1359px; height: 671px; left: 42px; top: 216px; position: absolute;
+  background: rgba(218, 235, 254, 0.8); border-radius: 40px;
+}
+
+.start-btn {
+  width: 293px; height: 82px; left: 98px; top: 727px; position: absolute;
+  background: #73ECFC; border-radius: 40px; cursor: pointer;
+  display: flex; justify-content: center; align-Items: center;
+}
+
+.description-text {
+  width: 405px; left: 97px; top: 551px; position: absolute;
+  font-size: 20px; font-family: 'Anonymous Pro';
+}
+
+.title-text {
+  width: 448px; left: 120px; top: 370px; position: absolute;
+  font-size: 100px; font-family: 'IBM Plex Mono';
+}
+
+.main-image{
+    width: 740px; height: 460px;
+    left: 620px; top: 370px;
+    position: absolute; border-radius: "40px";
+}

@@ -1,0 +1,21 @@
+/* src/pages/AnalysisInputPage.css */
+.analysis-input-container {
+    width: 1440px; height: 1024px; position: relative; background: white; overflow: hidden;
+}
+
+.input-bg-box {
+    width: 1244px; height: 744px; left: 99px; top: 229px; position: absolute;
+    background: rgba(218, 218, 254, 0.8); border-radius: 40px;
+}
+
+.textarea-field {
+    width: 1095px; height: 204px; left: 173px; top: 564px; position: absolute;
+    background: white; border-radius: 40px; border: none; padding: 30px;
+    font-size: 20px; outline: none; box-sizing: border-box;
+}
+
+.analyze-btn {
+    width: 329px; height: 110px; left: 908px; top: 819px; position: absolute;
+    background: #73ECFC; border-radius: 40px; cursor: pointer;
+    display: flex; justify-content: center; align-Items: center; font-size: 32px;
+}

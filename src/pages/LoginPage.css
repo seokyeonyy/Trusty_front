@@ -1,0 +1,49 @@
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.login-title { font-size: 40px; margin-bottom: 50px; }
+
+/* 핵심: 입력창 그룹(왼쪽) + 버튼(오른쪽) 가로 정렬 */
+.login-form {
+  display: flex;
+  gap: 20px; 
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-input {
+  width: 400px;
+  height: 60px;
+  border-radius: 12px;
+  border: 1px #D9D9D9 solid;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+/* 버튼 높이를 2개 입력창(60+60+15=135)에 딱 맞춤 */
+.login-btn {
+  width: 150px;
+  height: 135px; 
+  background: #0088FF;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.login-footer {
+  margin-top: 30px;
+  color: #0088FF;
+  cursor: pointer;
+  text-decoration: underline;
+}

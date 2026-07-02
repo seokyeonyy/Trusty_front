@@ -1,0 +1,42 @@
+/* src/pages/CommunityPage.css */
+
+.community-container {
+    width: 1440px; height: 1024px; position: relative; background: white; overflow: hidden;
+}
+
+.banner-img {
+    width: 1456px; height: 376px; left: 0px; top: -82px; position: absolute;
+}
+
+.content-area {
+    width: 1456px; height: 683px; left: 0px; top: 341px; position: absolute;
+}
+
+/* 탭 메뉴 */
+.tab-menu {
+    width: 1052px; height: 39px; left: 28px; top: 68px; position: absolute;
+    display: flex; gap: 50px;
+}
+
+.tab-item {
+    font-size: 24px; font-family: 'Inter'; cursor: pointer; color: black;
+}
+
+.tab-item.active {
+    font-weight: 700; text-decoration: underline;
+}
+
+/* 사이드바 */
+.sidebar {
+    width: 313px; height: 563px; left: 1114px; top: 0px; position: absolute;
+    background: white; border: 1px black solid; padding: 20px;
+}
+
+.sidebar-search {
+    width: 200px; height: 40px; border: 1px solid #ccc; border-radius: 5px;
+    padding-left: 10px; font-size: 18px;
+}
+
+.sidebar-link {
+    display: block; margin-bottom: 30px; font-size: 24px; cursor: pointer;
+}
