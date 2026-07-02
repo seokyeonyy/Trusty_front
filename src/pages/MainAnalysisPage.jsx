@@ -2,12 +2,15 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import './MainAnalysisPage.css';
+import mainImage from '../assets/images/home.jpg';
 
 function MainAnalysisPage() {
   const navigate = useNavigate();
 
   return (
     <div className="main-container">
+      <Navbar />
+
       <div className="content-box" />
       
       <div className="title-text">LLM 기반 최첨단 피싱 감지 시스템</div>
@@ -20,8 +23,8 @@ function MainAnalysisPage() {
         <span style={{ fontSize: "28px" }}>분석 시작하기</span>
       </div>
       
-      <img className="main-image" src="https://placehold.co/704x469" alt="main" />
-      <Navbar />
+      <img className="main-image" src={mainImage} alt="main" />
+      
     </div>
   );
 }

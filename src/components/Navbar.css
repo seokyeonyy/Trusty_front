@@ -1,0 +1,56 @@
+.navbar {
+  width: 100%; /* 너비를 100%로 설정 */
+  top: 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+
+.navbar__row {
+  width: 1100px; /* 기존 너비 유지 */
+  display: flex;
+  justify-content: space-between; /* 양 끝으로 벌리고 중간 간격 자동 맞춤 */
+  align-items: center;
+  /* gap: 60px;  <- space-between을 쓰면 gap은 굳이 안 써도 됩니다 */
+}
+
+.navbar__logo {
+  color: var(--color-text-primary);
+  font-size: 42px; /* 텍스트 크기 증가 */
+  font-family: var(--font-primary);
+  font-weight: 800;
+  cursor: pointer;
+  letter-spacing: -0.5px;
+}
+
+.navbar__menu-item {
+  color: var(--color-text-body);
+  font-size: 36px; /* 텍스트 크기 증가 */
+  font-family: var(--font-primary);
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.navbar__login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.navbar__login-text {
+  color: var(--color-text-body);
+  font-size: 36px; /* 텍스트 크기 증가 */
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+.navbar__divider {
+  width: 1100px;
+  height: 1px;
+  background: var(--color-border);
+  margin-top: 24px;
+}

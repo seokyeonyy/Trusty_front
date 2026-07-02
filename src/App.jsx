@@ -11,6 +11,7 @@ import ReportPage from './pages/ReportPage'
 import CommunityPage from './pages/CommunityPage'
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage';
+import SearchHistoryPage from './pages/SearchHistoryPage';  
 
 
 // 공통 전역 스타일 혹은 기존 App.css가 필요하다면 유지 (스타일 깨짐 방지)
@@ -32,6 +33,8 @@ function App() {
         <Route path="/lookup" element={<LookupPage />} />
         <Route path="/report" element={<ReportPage />} />       {/* 선택 페이지로 이동 */}
         <Route path="/report/main" element={<ReportMainPage />} /> {/* 상세 입력 페이지로 이동 */}
+        <Route path="/community" element={<CommunityPage />} />
+        <Route path="/search-history" element={<SearchHistoryPage />} />
         
         {/* 4. 커뮤니티/로그인/회원가입 */}
         <Route path="/community" element={<CommunityPage />} />
